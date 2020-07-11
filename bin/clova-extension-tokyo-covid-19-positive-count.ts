@@ -5,3 +5,4 @@ import { ClovaExtensionTokyoCovid19PositiveCountStack } from '../lib/clova-exten
 
 const app = new cdk.App();
 new ClovaExtensionTokyoCovid19PositiveCountStack(app, 'ClovaExtensionTokyoCovid19PositiveCountStack');
+app.synth();

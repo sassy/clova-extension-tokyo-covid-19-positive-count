@@ -30,6 +30,9 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4.1.6
         with:
           commit_message: update data
+          commit_user_name: update data bot
+          commit_user_email: sassy.watanabe@gmail.com>
+          commit_author: update data bot <sassy.watanabe@gmail.com>
   
   
 

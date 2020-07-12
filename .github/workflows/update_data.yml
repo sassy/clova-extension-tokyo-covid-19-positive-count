@@ -38,6 +38,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   
+  deploy-for-data:
+    needs: [update-data]
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v2
+        - uses: ./.github/actions/deploy
+  
   
 
 

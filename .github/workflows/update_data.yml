@@ -40,10 +40,10 @@ jobs:
   
   deploy-for-data:
     needs: [update-data]
-      runs-on: ubuntu-latest
-      steps:
-        - uses: actions/checkout@v2
-        - uses: ./.github/actions/deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ./.github/actions/deploy
   
   
 

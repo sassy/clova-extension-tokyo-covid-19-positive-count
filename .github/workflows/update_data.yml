@@ -33,6 +33,8 @@ jobs:
           commit_user_name: update data bot
           commit_user_email: sassy.watanabe@gmail.com>
           commit_author: update data bot <sassy.watanabe@gmail.com>
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   
   
 

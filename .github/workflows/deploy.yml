@@ -17,13 +17,12 @@ jobs:
         with:
           node-version: '12.x'
 
-      - name: Setup TypeScript
-        run: npm install typescript -g
-
       - name: Setup dependencies
         run: |
           npm ci
           npm run build
+          cd lambda
+          npm ci
 
       - name: cdk deploy
         uses: youyo/aws-cdk-github-actions@master

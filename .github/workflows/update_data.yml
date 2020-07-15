@@ -23,6 +23,9 @@ jobs:
         run: |
           npm ci
           npm run build
+          cd lambda
+          npm ci
+
     
       - name: Get json file
         run: |

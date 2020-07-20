@@ -1,4 +1,8 @@
-# Welcome to your CDK TypeScript project!
+# 東京コロナ感染者
+
+東京都のその日の感染者を教えてくれるLINE Clova スキルです。
+
+## It is used AWS CDK in this skill.
 
 This is a blank project for TypeScript development with CDK.
 

@@ -12,20 +12,20 @@
     "update:data" : "tsc && node scripts/update_data.js"
   },
   "devDependencies": {
-    "@aws-cdk/assert": "1.59.0",
+    "@aws-cdk/assert": "1.60.0",
     "@types/jest": "26.0.10",
     "@types/node": "10.17.28",
     "jest": "26.4.0",
     "ts-jest": "26.2.0",
-    "aws-cdk": "1.59.0",
+    "aws-cdk": "1.60.0",
     "ts-node": "8.10.2",
     "typescript": "3.9.7"
   },
   "dependencies": {
-    "@aws-cdk/aws-apigateway": "1.59.0",
-    "@aws-cdk/aws-iam": "1.59.0",
-    "@aws-cdk/aws-lambda": "1.59.0",
-    "@aws-cdk/core": "1.59.0",
+    "@aws-cdk/aws-apigateway": "1.60.0",
+    "@aws-cdk/aws-iam": "1.60.0",
+    "@aws-cdk/aws-lambda": "1.60.0",
+    "@aws-cdk/core": "1.60.0",
     "@line/clova-cek-sdk-nodejs": "1.2.1",
     "@types/node-fetch": "2.5.7",
     "node-fetch": "2.6.0",

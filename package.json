@@ -9,7 +9,7 @@
     "watch": "tsc -w",
     "test": "jest",
     "cdk": "cdk",
-    "update:data" : "tsc && node scripts/update_data.js"
+    "update:data": "tsc && node scripts/update_data.js"
   },
   "devDependencies": {
     "@aws-cdk/assert": "1.60.0",

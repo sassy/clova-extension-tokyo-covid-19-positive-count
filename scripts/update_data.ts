@@ -7,6 +7,10 @@ const filename = path.join(__dirname, '../lambda', 'daily_positive_detail.json')
 fetch('https://raw.githubusercontent.com/tokyo-metropolitan-gov/covid19/development/data/daily_positive_detail.json',
     {method: "GET"})
     .then((response => {
-        response.body.pipe(fs.createWriteStream(filename));
+        if (response.body !== null) {
+            response.body.pipe(fs.createWriteStream(filename));
+        } else {
+            console.error("response error");
+        }
     }))
     .catch((error) => console.error(error));

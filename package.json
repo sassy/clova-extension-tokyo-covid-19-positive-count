@@ -30,6 +30,6 @@
     "@types/express-serve-static-core": "4.17.24",
     "@types/node-fetch": "2.5.12",
     "node-fetch": "2.6.1",
-    "source-map-support": "0.5.19"
+    "source-map-support": "0.5.20"
   }
 }

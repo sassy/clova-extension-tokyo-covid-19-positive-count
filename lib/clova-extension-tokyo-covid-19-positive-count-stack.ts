@@ -20,7 +20,7 @@ export class ClovaExtensionTokyoCovid19PositiveCountStack extends cdk.Stack {
     const lambdaFunction: Function = new Function(this, "tokyoCovid19Handler", {
       functionName: "tokyoCovid19Handler",
       runtime: Runtime.NODEJS_12_X,
-      code: Code.asset("lambda"),
+      code: Code.fromAsset("lambda"),
       handler: "main.handler",
       memorySize: 256,
       timeout: cdk.Duration.seconds(10),

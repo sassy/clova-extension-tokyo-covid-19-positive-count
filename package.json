@@ -27,7 +27,7 @@
     "@aws-cdk/aws-lambda": "1.168.0",
     "@aws-cdk/core": "1.168.0",
     "@line/clova-cek-sdk-nodejs": "1.2.1",
-    "@types/express-serve-static-core": "4.17.30",
+    "@types/express-serve-static-core": "4.17.35",
     "@types/node-fetch": "2.6.2",
     "node-fetch": "2.6.7",
     "source-map-support": "0.5.21"
